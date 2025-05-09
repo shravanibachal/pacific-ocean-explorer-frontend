@@ -1,0 +1,188 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding-top: 2%;
+  }
+  
+  .footer-links h3,
+  .contact-info h3,
+  .social-icons h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding-top: 20px;
+  }
+  
+  .footer-links ul,
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li,
+  .social-icons ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a,
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Add underline effect when hovering over footer links */
+  .footer-links a:hover  
+      {
+      border-bottom: 1px solid #dad0d0;
+  }
+  .footer-links a:hover,
+  .social-icons a:hover {
+    color: #ddd;
+  }
+  
+  
+  /* Add underline effect when hovering over contact info */
+  /* .contact-info:hover {
+              border-bottom: 1px solid #f0e7e7;
+          }
+  .contact-info p {
+    margin: 5px 0;
+  }
+   */
+  .social-icons i {
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #e4ebf0;
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin:10px;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+  .social-icons a i{
+      font-size:2em;
+      color:black;
+      opacity:0.9;
+  }
+  
+  .social-icons a:hover {
+    background-color: #0a0909;
+    transition: 0.5s;
+  }
+  .social-icons a:hover i{
+  color:white;
+  transition: 0.5s;
+  }
+  
+  /* .bottom-bar{
+      background: antiquewhite;
+      text-align: center;
+      padding: 10px 0;
+      margin-top:50px ;
+  } */
+  .bottom-bar p{
+      color: #000000;
+      margin: 0;
+      font-size: 16px;
+      padding: 7px;
+  }
+
+  .input {
+    max-width: 190px;
+    background-color: #f9f9fe;
+    color: #070738;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+    top: 35%;
+    left: 45%;
+    position: absolute;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid rgb(6, 6, 6)c7;
+    border-radius: 4px 4px 2px 2px;
+  }
+  
+  input:hover {
+    outline: 1px solid lightgrey;
+  }
+
+
+  .cs h3,
+  .cs h3
+  /* .social-icons h3  */
+  {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    margin-top: 12%;
+  }
+  
+  .cs ul,
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cs ul li,
+  .social-icons ul li {
+    margin-bottom: 10px;
+  }
+  
+  .cs a,
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Add underline effect when hovering over footer links */
+  .cs a:hover  
+      {
+      border-bottom: 1px solid #dad0d0;
+  }
+  .cs a:hover,
+  .social-icons a:hover {
+    color: #ddd;
+  }
+
+  .contact-info p {
+    margin: 20px 0;
+
+  }
